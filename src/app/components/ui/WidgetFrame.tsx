@@ -4,7 +4,7 @@ interface WidgetFrameProps {
 
 const WidgetFrame: React.FC<WidgetFrameProps> = ({children}) => {
   return (
-    <div className="rounded-md w-full md:w-2/3 xl:w-1/2 bg-slate-700 flex flex-col justify-center p-3 drop-shadow-lg">
+    <div className="rounded-md w-full md:w-2/3 xl:w-1/2 bg-slate-700 flex flex-col justify-center items-center p-8 drop-shadow-lg">
       {children}
     </div>
   );

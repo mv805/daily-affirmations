@@ -3,17 +3,12 @@ import { useState } from "react";
 
 import WidgetSelector from "./components/WidgetSelector";
 import TestWidget1 from "./components/test_widgets/TestWidget1";
-import TestWidget2 from "./components/test_widgets/TestWidget2";
-import TestWidget3 from "./components/test_widgets/TestWidget3";
-import TestWidget4 from "./components/test_widgets/TestWidget4";
-import TestWidget5 from "./components/test_widgets/TestWidget5";
+import DailyQuote from "./components/widgets/DailyQuote";
+
 
 const widgetComponents: { [key: string]: React.ComponentType } = {
   "Test Widget 1": TestWidget1,
-  "Test Widget 2": TestWidget2,
-  "Test Widget 3": TestWidget3,
-  "Test Widget 4": TestWidget4,
-  "Test Widget 5": TestWidget5,
+  "Daily Quote": DailyQuote
 };
 
 const widgetNames = Object.keys(widgetComponents);
